@@ -9,7 +9,7 @@ public class Score : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            ScoreManager.score += 1;
+            ScoreManager.score += 1; 
             Destroy(gameObject);
         }
     }
